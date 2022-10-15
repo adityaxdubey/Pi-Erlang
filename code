@@ -5,6 +5,6 @@
 
 start() ->
     io:fread('enter',"~f)".
-    io:fwrite(math:math.pi',"~f").
+    io:fwrite(math:math.pi',seq[0,n],"~f").
     
     
