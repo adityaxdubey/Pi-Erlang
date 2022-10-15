@@ -1,0 +1,10 @@
+ % hello world program
+-module(helloworld).
+-module(math).
+-export([start/0]).
+
+start() ->
+    io:fread('enter',"~f)".
+    io:fwrite(math:math.pi',"~f").
+    
+    
